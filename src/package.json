@@ -1,0 +1,124 @@
+{
+  "name": "topshortcuts",
+  "title": "Top Shortcuts",
+  "id": "jid1-ZsomX69tl35C5A@jetpack",
+  "description": "Shortcuts of Top Websites",
+  "author": "Andy Portmen",
+  "license": "MPL 2.0",
+  "version": "0.1.3",
+  "main": "common",
+  "permissions": {"private-browsing": true},
+  "preferences": [
+    {
+      "name": "facebook",
+      "title": "Facebook toolbar icon:",
+      "description": "Facebook is a social utility that connects people with friends and others who work, study and live around them.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "plus",
+      "title": "Google Plus toolbar icon:",
+      "description": "Join and discover easy sharing, group video chat & more.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "twitter",
+      "title": "Twitter toolbar icon:",
+      "description": "Social networking and microblogging service utilising instant messaging, SMS or a web interface.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "gmail",
+      "title": "Gmail toolbar icon:",
+      "description": "The ease and simplicity of Gmail, available across all your devices. Gmail's inbox helps you stay organized by sorting your mail by type.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "yahoo",
+      "title": "Yahoo Mail toolbar icon:",
+      "description": "Best in class Yahoo Mail, breaking local, national and global news, finance, sports, music, movies and more.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "youtube",
+      "title": "Youtube toolbar icon:",
+      "description": "Hosts user-generated videos. Includes network and professional content.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "amazon",
+      "title": "Amazon toolbar icon:",
+      "description": "Online retailer of books, movies, music and games along with electronics, toys, apparel, sports, tools, groceries and general home and garden items.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "dropbox",
+      "title": "Dropbox toolbar icon:",
+      "description": "Dropbox is a free service that lets you bring your photos, docs, and videos anywhere and share them easily.",
+      "type": "bool",
+      "value": true
+    },    
+    {
+      "name": "pandora",
+      "title": "Pandora toolbar icon:",
+      "description": "Pandora is free, personalized radio that plays music you'll love. Discover new music and enjoy old favorites.",
+      "type": "bool",
+      "value": true
+    },  
+    {
+      "name": "microsoft",
+      "title": "Live Mail toolbar icon:",
+      "description": "Outlook.com is free modern email service from Microsoft.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "bing",
+      "title": "Bing toolbar icon:",
+      "description": "Bing is a search engine that brings together the best of search and people in your social networks.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "linkedin",
+      "title": "Linkedin toolbar icon:",
+      "description": "Build and engage with your professional network.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "flicker",
+      "title": "Flicker toolbar icon:",
+      "description": "Picture galleries available with social networking, chat, groups, and photo ratings.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "paypal",
+      "title": "PayPal toolbar icon:",
+      "description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "ebay",
+      "title": "Ebay toolbar icon:",
+      "description": "Buy and sell electronics, cars, fashion apparel, collectibles, sporting goods, digital camera and many more.",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "wikipedia",
+      "title": "Wikipedia toolbar icon:",
+      "description": "Free Encyclopedia.",
+      "type": "bool",
+      "value": true
+    }]
+}

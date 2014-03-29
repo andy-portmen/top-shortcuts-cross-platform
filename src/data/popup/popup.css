@@ -1,0 +1,53 @@
+body {
+  width: 150px;
+  height: 190px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 5px 5px 0px 5px;
+  margin: 0;
+  background-color: #fff;
+  overflow: hidden;
+  -moz-user-select: none;
+}
+
+table {
+  empty-cells: show;
+}
+tr td {
+  width: 40px;
+  height: 40px;
+  -webkit-transition: 200ms all; 
+  -moz-transition: 200ms all;
+  border-bottom: 1px solid transparent;
+}
+tr td:hover {
+  background-color: white;
+  border-bottom: 1px solid #d14836;
+  cursor: pointer;
+  -webkit-transition: 0s; 
+  -moz-transition: 0s;  
+}
+/*  */
+tr td[type='facebook'] {background: url(./icons/facebook-32.png) no-repeat center center;}
+tr td[type='plus'] {background: url(./icons/plus-32.png) no-repeat center center;}
+tr td[type='twitter'] {background: url(./icons/twitter-32.png) no-repeat center center;}
+tr td[type='gmail'] {background: url(./icons/gmail-32.png) no-repeat center center;}
+tr td[type='yahoo'] {background: url(./icons/yahoo-32.png) no-repeat center center;}
+tr td[type='youtube'] {background: url(./icons/youtube-32.png) no-repeat center center;}
+tr td[type='amazon'] {background: url(./icons/amazon-32.png) no-repeat center center;}
+tr td[type='dropbox'] {background: url(./icons/dropbox-32.png) no-repeat center center;}
+tr td[type='pandora'] {background: url(./icons/pandora-32.png) no-repeat center center;}
+tr td[type='microsoft'] {background: url(./icons/microsoft-32.png) no-repeat center center;}
+tr td[type='bing'] {background: url(./icons/bing-32.png) no-repeat center center;}
+tr td[type='linkedin'] {background: url(./icons/linkedin-32.png) no-repeat center center;}
+tr td[type='flicker'] {background: url(./icons/flicker-32.png) no-repeat center center;}
+tr td[type='paypal'] {background: url(./icons/paypal-32.png) no-repeat center center;}
+tr td[type='ebay'] {background: url(./icons/ebay-32.png) no-repeat center center;}
+tr td[type='wikipedia'] {background: url(./icons/wikipedia-32.png) no-repeat center center;}
+#status-div {
+  height: 40px;
+  line-height: 40px;
+  background-color: #F5F5F5;
+  text-align: center;
+  vertical-align: middle;
+}
